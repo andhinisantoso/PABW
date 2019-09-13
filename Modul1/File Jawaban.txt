@@ -1,0 +1,26 @@
+1. Lakukanlah perubahan pada kode HTML sesuai keinginan anda,
+Pernakah terjadi error ketika adakesalahan kode?
+    tidak terjadi error
+
+2. Cobalah ubah nilai meta refresh <meta HTTP-EQUIV="REFRESH"
+content="5; url=http://google.co.id"> apa yang terjadi?, maka jelaskan
+apa diantara kegunaan meta dokumen?
+    terjadi perubahan saat meta refresh diubah seperti diatas.
+    sebelum diubah, saat file html dibuka maka tidak ada aksi lain
+    yang akan muncul. namun setelah diubah, akan terjadi refresh dalam
+    waktu 5 detik dan melanjutkan link ke www.google.com
+    kegunaan dari meta dokumen Meta adalah elemen atau tag dalam bahasa
+    pemrograman HTML atau XHTML yang berfungsi sebagai pemberi informasi
+    metadata dari sebuah halaman web. Elemen meta ini harus diletakkan 
+    pada bagian “head” dalam HTML tersebut. Tag meta ini dapat dipakai 
+    juga untuk menyatakan deskripsi/keterangan dari suatu halaman web 
+    dan untuk menjelaskan mengenai kata kunci (keyword) yang terkait 
+    serta untuk metadata lain tanpa “head”.
+
+3. Jelaskan fungsi tag HTML pada Table: thead, tbody, tr, th serta td!
+    thead = berfungsi untuk mengelompokkan konten yang terletak di 
+             kepala sebuah tabel
+    tbody = berfungsi menunjukkan isi tabel
+    tr    = berfungsi membuat kolom(row) pada tabel
+    th    = berfungsi untuk membuat nama/kepala pada tabel/kolom
+    td    = berfungsi untuk menampung data yang akan diisi di setiap baris/kolom    
