@@ -1,0 +1,109 @@
+* {
+    margin: 0; padding: 0;
+}
+html, body{
+    height: max-content;
+    width: auto;
+}
+body{
+    background-color: rgb(241, 153, 143);
+    width: 100%;
+}
+.bungkus .header{
+    background-color: rgb(241, 153, 143);
+    padding-left: 30px;
+    padding-top: 15px;
+    height: 1px;
+    width: 100%;
+    text-align: center;
+}
+.bungkus .badan{
+    background-image: url(mesintik.jpg);
+    height: 390px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 60px;
+    padding-top: 100px;
+}
+.bungkus .footer{
+    padding-top: 2px;
+    margin: 3px;
+    height: 20px;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+}
+.bungkus .badan h3 p{
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+.bungkus .menu-wrap {
+    background-color: rgb(248, 50, 83);
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    width: 770px;
+    margin: auto;
+    margin-top: 80px;
+}
+.bungkus .menu-wrap ul{
+    list-style: none;
+}
+.bungkus .menu-wrap ul li a{
+    float: left;
+    width: 150px;
+    display: block;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.bungkus .menu-wrap ul li a:hover{
+    background-color: #666666;
+    display: block;
+}
+.bungkus .menu-wrap ul li:hover ul{
+    display: block;
+}
+.bungkus .menu-wrap ul ul{
+    display: none;
+    list-style: none;
+    position: absolute;
+    background-color: salmon;
+    left: 300px;
+    top: 50px;
+    width: 190px;
+}
+.bungkus .menu-wrap ul ul li a{
+    float: none;
+    display: block;
+    padding-left: 30px;
+    text-align: left;
+    width: 160px;
+}
+.bungkus .menu-wrap ul ul li a:hover{
+    color: #FFF;
+}
+.bungkus .kotak{
+    width: 200px;
+    height: 50px;
+    position: fixed;
+    padding-top: 10px;
+    top: 350px;
+    left: 45%;
+    background-color: rgb(247, 170, 162);
+    opacity: 0.8;
+    filter: alpha(opacity: 80;);
+}
+.bungkus .kotak p{
+    padding-top: 10px;
+    text-align: center;
+}
